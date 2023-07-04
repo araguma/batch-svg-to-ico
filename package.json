@@ -1,0 +1,25 @@
+{
+  "name": "batch-svg-to-ico",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc && mkdir -p dist/input && mkdir -p dist/output",
+    "start": "npm run build && node dist/index.js"
+  },
+  "keywords": [
+    "batch",
+    "svg",
+    "ico",
+    "convert"
+  ],
+  "author": "araguma",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.3.3",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "svg-to-ico": "github:araguma/svg-to-ico"
+  }
+}
